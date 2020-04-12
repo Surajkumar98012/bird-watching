@@ -1,0 +1,81 @@
+body{
+	background-color: lightgray;
+	margin: 0px 200px 0px 200px;
+	text-align: justify-all;
+}
+#head{
+	background-color: rgb(93, 217, 126,.8);
+	margin-top: 10px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 1em;
+	font-weight: lighter;
+	padding: 10px;
+	text-align: center;
+	height: 160px	
+}
+#head img{
+	float: right;
+	margin-top: 24px;
+}
+
+#head ul{
+	text-align: center;
+	background-color: rgb(179, 255, 186);
+}
+#head ul li{
+	list-style-type: none;
+	display: inline-flex;
+	width: 120px;
+	padding: 15px;
+	font-weight: bold;
+}
+
+#container{
+	background-color: rgb(93, 217, 126,.8);
+	height: auto;
+	text-align: justify;
+	position: relative;
+	height: 254px;
+	width: auto;
+	margin-top: 8px;
+	padding: 10px;
+	position: relative;
+}
+
+#left-side{
+	background-color: rgb(179, 255, 186);
+	height: 214px;
+	width: 72%;
+	padding:20px;
+	margin-left: 2px;
+	line-height: 1.15em;
+}
+
+#right-side{
+	text-align: center;
+	background-color: rgb(179, 255, 186);
+	height: 218px;
+	width: 15%;
+	float: right;
+	padding: 18px;
+	margin-right: 1px;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+#footer{
+	background-color: rgb(93, 217, 126,.8);
+	height: 100px;
+	width: 855px;
+	margin-top: 18px;
+	padding: 12px;
+	margin-left: 0;
+	position: absolute;
+	left: 0;
+	
+
+}	
+#footer a{
+	text-decoration: none;
+	color: red;
+}
